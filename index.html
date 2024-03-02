@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchLive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WatchLive</h1>
+        <div class="join-container">
+            <h2>Join or Create a Server</h2>
+            <input type="text" id="server-name" placeholder="Server Name (Optional)">
+            <div class="join-buttons">
+                <button id="join-server">Join Server</button>
+                <button id="create-server">Create Server</button>
+                <button id="random-server">Join Random Server</button>
+            </div>
+        </div>
+        <div class="server-info" hidden>
+            <h2>Server: <span id="server-display"></span></h2>
+            <div class="share-container">
+                <input type="text" id="youtube-link" placeholder="Enter YouTube Link">
+                <button id="share-video">Share</button>
+            </div>
+            <div class="video-container">
+                <div class="video-box" id="video-display"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
